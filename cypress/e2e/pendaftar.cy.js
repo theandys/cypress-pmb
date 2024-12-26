@@ -3,7 +3,7 @@ import { faker } from "@faker-js/faker"
 describe('Pendaftaran', () => {
 	it('Pendaftaran Mahasiswa', () => {
 		cy.visit('/');
-		cy.fixture('pendaftaran').then((data)=> {
+		cy.fixture('pendaftaranLocal').then((data)=> {
 			data.nik = '3528'+faker.number.int({ min: 100000000000, max: 999999999999 });
 
 			// Jalur Pendaftaran

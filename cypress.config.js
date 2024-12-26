@@ -7,8 +7,8 @@ module.exports = defineConfig({
   viewportWidth: 1024,
   watchForFileChanges: false,
   e2e: {
-    // baseUrl: 'http://siacloud.test/spmbfront',
-    baseUrl: 'https://testing.sevimaplatform.com/revampcbtv1/current/spmbfront',
+    baseUrl: 'http://siacloud.test/spmbfront',
+    // baseUrl: 'https://testing.sevimaplatform.com/revampcbtv1/current/spmbfront',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
