@@ -1,6 +1,6 @@
-## Instalasi
+## Installation
 
-- Clone repo ini terlebih dahulu
-- Buka terminal dalam VSCode dan jalankan command berikut: `npm install`
-- Untuk menjalankan cypress dapat menggunakan command berikut: `npx cypress open`
-- Jika ada yang mengalami error "cypress configuration", bisa menjalankan command berikut untuk menginstall cypress: `npm install cypress --save-dev`
+- Clone this repo first
+- Open a terminal in VSCode and run the following command: npm install: `npm install`
+- To run cypress, you can use the following command: `npx cypress open`
+- If anyone experiences a "cypress configuration" error, you can run the following command to install cypress: `npm install cypress --save-dev`
